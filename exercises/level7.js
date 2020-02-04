@@ -3,3 +3,12 @@
 // times as the input number
 //
 // Name the function "finalFunction"
+function finalFunction(num) {
+	var myArrray = [];
+	for (var i = 0; i < num; i++) {
+		myArrray.push('our push string');
+	}
+	return myArrray;
+}
+
+console.log(finalFunction(4));
